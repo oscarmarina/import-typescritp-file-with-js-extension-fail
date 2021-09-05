@@ -1,0 +1,27 @@
+{
+  "name": "my-element-openwc-vitejs-ts",
+  "description": "Webcomponent my-element-openwc-vitejs-ts following open-wc recommendations",
+  "license": "MIT",
+  "author": "my-element-openwc-vitejs-ts",
+  "version": "0.0.0",
+  "main": "dist/src/index.js",
+  "module": "dist/src/index.js",
+  "exports": {
+    ".": "./dist/src/index.js",
+    "./my-element-openwc-vitejs-ts.js": "./dist/src/my-element-openwc-vitejs-ts.js"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "vite-build": "vite build",
+    "tsc-build": "tsc"
+  },
+  "dependencies": {
+    "lit": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "vite": "^2.4.4",
+    "typescript": "^4.3.2",
+    "tslib" : "^2.3.1"
+  }
+}
